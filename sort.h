@@ -8,7 +8,6 @@ void swap_sort(int *xp, int *yp);
 
 /**
  * struct listint_s - Doubly linked list node
- *
  * @n: Integer stored in the node
  * @prev: Pointer to the previous element of the list
  * @next: Pointer to the next element of the list
@@ -44,4 +43,5 @@ void b_sort(int *array, int low, int count, int dir, size_t size);
 void b_merge(int *array, int low, int count, int dir, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 int partition_hoare(int *a, int l, int h);
+
 #endif
